@@ -6,18 +6,43 @@
 </head>
 <body>
 	<div id="texte">
-		<h1>Pour gagner les Balenciaga montent 750€</h1>
+		<h1>Pour gagner les baskets Balenciaga<br>d'une valeur de 750€</h1>
 		<h2>Pour participer c'est simple il faut bien remplir le formulaire !</h2>
-		<p>Des que vous cliquer sur " formulaire " en dessous vous aller être redirigé vers une page de pub il faut attendre 5 secondes puis cliquer en haut à droite et là vous serait rediriger vers le formulaire. <br><br>Vous n'avez qu'une chance pour participer.</p>
+		<p>Des que vous cliquer sur " formulaire " en dessous vous allez être redirigés vers une page de pub il faut attendre 5 secondes puis cliquer en haut à droite et là vous serait rediriger vers le formulaire. <br><br>Vous n'avez qu'une chance pour participer.</p>
 		<a href="http://sowernal.com/1x54">
-			<input type="button" name="button" value="Formulaire" class="buyButton">
+			<input type="button" name="button" value="Formulaire" class="button button">
 		</a>
-		<h2>Voici la baskets à gagner<br>Bonne chance !!!</h2>
+		<h2>Voici la basket à gagner<br>Bonne chance !!!</h2>
 	</div>
 	<div id="image">
-		<img src="https://img.ssensemedia.com/image/upload//191342M237001_1.jpg">
+		<img src="https://img.ssensemedia.com/image/upload//191342M237001_1.jpg" height="200">
 	</div>
+	<div class="row">
+  <div class="column">
+    <h2>Partage</h2>
+    <p>Partagez avec vos amies avant de répondre au formulaire vous multiplier vos chances de gagner.</p>
+    <iframe src="https://www.facebook.com/plugins/share_button.php?href=https%3A%2F%2Ftirage-au-sort.github.io%2FTirage-au-sort%2F&layout=button&size=small&appId=346421635992724&width=73&height=20" width="73" height="20" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media">
+    </iframe>
+    <a href="https://twitter.com/share?url=https://tirage-au-sort.github.io/Tirage-au-sort/&text=Tentez de gagner un cadeau 😉" class="twitter-share-button" data-show-count="false">Tweet</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+  </div>
+  
+  <div class="column">
+    <h2>Likes notre page Facebook</h2>
+    <p>Aime notre page Facebook pour être au courant du prochain tirage au sort.</p>
+		<iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2FTirage-Au-Sort-359176738034531%2F%3Fmodal%3Dadmin_todo_tour&width=450&layout=standard&action=like&size=large&show_faces=true&share=false&height=80&appId=346421635992724" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+  </div>
+  
+  <div class="column">
+    <h2>Le gagnant ou la gagnante</h2>
+    <p>Recevra un mail pour confirmer l'adresse et la récompense gagner.<br><br>Notre mail : tirageausortfr5@gmail.com</p>
+  </div>
+</div>
 </body>
+<footer>
+	<div>
+		<p>Le Tirage au Sort ©</p>		
+	</div>
+</footer>
 </html>
 
 <style type="text/css">
@@ -40,5 +65,60 @@
 	font-family: arial;
 	text-align: center;
 }
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.button {
+  background-color: white;
+  color: black;
+  border: 1px solid #e7e7e7;
+}
+
+.button:hover {
+	background-color: #e7e7e7;
+}
+
+footer {
+	font-family: arial;
+	padding: 10px;
+	text-align: center;
+	background: #ddd;
+}
+
+.column {
+	font-family: arial;
+  float: left;
+  width: 30%;
+  padding: 10px;
+  padding-right: 1.5%;
+  padding-left: 1.5%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Responsive layout - makes the three columns stack on top of each other instead of next to each other */
+@media screen and (max-width:600px) {
+  .column {
+    width: 100%;
+  }
+
 
 </style>
